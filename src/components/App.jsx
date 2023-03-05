@@ -6,7 +6,7 @@ function App() {
 const cards = [
     {
         title: "Карточка с img в html",
-        text: "На картинке нарисован буржуйский тапок. Изображение выводится с расчетом на какие-то сложности - редактор изображений или что-то такое. Любые другие child выводятся как есть",
+        text: "На картинке нарисован буржуйский тапок.",
         //children: <img src="/img/1.jpg" className="card-img-top" alt="alt"/>
     },
     {
@@ -42,7 +42,7 @@ const cards = [
             {/*Разные варианты вывода - children и в данных и в html*/}
             <Card key={shortid.generate()} {...cards[0]}>
                 <img src="/img/1.jpg" className="card-img-top" alt="alt"/>
-                <p>Второй child, выводится как есть, без imgEditor</p>
+                <p>Второй child</p>
             </Card>
             <Card key={shortid.generate()} {...cards[1]}/>
             <Card key={shortid.generate()} {...cards[2]}/>
