@@ -1,0 +1,15 @@
+body,
+html {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+}
+
+.App{
+}
+
+.card{
+    width: 18rem;
+    float: left;
+    margin: 10px 10px;
+}
